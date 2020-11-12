@@ -2,77 +2,6 @@
   "config": [
     {
       "type": "link",
-      "key": "getting-started",
-      "slug": "getting-started",
-      "title": "Getting Started",
-      "position": 0,
-      "id": "1",
-      "children": []
-    },
-    {
-      "type": "link",
-      "key": "features",
-      "slug": "features",
-      "title": "Features",
-      "id": "2",
-      "position": 2,
-      "children": [
-        {
-          "type": "group",
-          "slug": "features/windows-3",
-          "title": "Windows",
-          "id": "3",
-          "children": [
-            {
-              "type": "link",
-              "slug": "features/win-1",
-              "title": "Windows 10",
-              "id": "7",
-              "children": []
-            }
-          ]
-        },
-        {
-          "type": "group",
-          "key": "Linux",
-          "title": "Linux",
-          "position": null,
-          "id": "8",
-          "children": [
-            {
-              "type": "link",
-              "slug": "features/Arch",
-              "title": "Arch",
-              "id": "9",
-              "children": []
-            },
-            {
-              "key": "./features/ubuntu.md",
-              "slug": "features/ubuntu",
-              "type": "link",
-              "title": "Ubuntu",
-              "id": "11"
-            }
-          ]
-        },
-        {
-          "key": "./features/mac.md",
-          "slug": "features/mac",
-          "type": "link",
-          "title": "Mac OS",
-          "id": "13"
-        },
-        {
-          "type": "link",
-          "slug": "deployment/node",
-          "title": "Node",
-          "id": "14",
-          "children": []
-        }
-      ]
-    },
-    {
-      "type": "link",
       "key": "deployment",
       "slug": "deployment",
       "title": "Deployment",
@@ -103,6 +32,77 @@
           ]
         }
       ]
+    },
+    {
+      "type": "link",
+      "key": "features",
+      "slug": "features",
+      "title": "Features",
+      "id": "2",
+      "position": 2,
+      "children": [
+        {
+          "key": "./features/mac.md",
+          "slug": "features/mac",
+          "type": "link",
+          "title": "Mac OS",
+          "id": "13"
+        },
+        {
+          "type": "group",
+          "key": "Linux",
+          "title": "Linux",
+          "position": null,
+          "id": "8",
+          "children": [
+            {
+              "type": "link",
+              "slug": "features/Arch",
+              "title": "Arch",
+              "id": "9",
+              "children": []
+            },
+            {
+              "key": "./features/ubuntu.md",
+              "slug": "features/ubuntu",
+              "type": "link",
+              "title": "Ubuntu",
+              "id": "11"
+            }
+          ]
+        },
+        {
+          "type": "link",
+          "slug": "deployment/node",
+          "title": "Node",
+          "id": "14",
+          "children": []
+        },
+        {
+          "type": "group",
+          "slug": "features/windows-3",
+          "title": "Windows",
+          "id": "3",
+          "children": [
+            {
+              "type": "link",
+              "slug": "features/win-1",
+              "title": "Windows 10",
+              "id": "7",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "link",
+      "key": "getting-started",
+      "slug": "getting-started",
+      "title": "Getting Started",
+      "position": 0,
+      "id": "1",
+      "children": []
     }
   ]
 }
